@@ -1,0 +1,15 @@
+FROM python:3.10
+
+## TODO
+# USER を指定する
+# /api をどうにかする
+# PATH をなんかやらなきゃいけないのか確認する
+# .venv をどこかにやる
+
+ENV PATH ~/.local/bin:$PATH
+
+RUN apt-get update
+RUN curl -sSL https://install.python-poetry.org | python -
+
+ADD . /api
+WORKDIR /api
