@@ -1,0 +1,6 @@
+[global]
+hello = "world"
+
+[hoge]
+foo = "bar"
+secret = "hogehoge"
