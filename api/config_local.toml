@@ -1,0 +1,9 @@
+[general]
+
+stage = "local"
+application_name = "hookbucket_local"
+
+hohoho = "hehehe"
+
+[foo]
+hogehoge = "oghoehogehog"

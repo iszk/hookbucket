@@ -1,0 +1,16 @@
+{
+    "version": "2.0",
+    "app_name": "hookbucket",
+    "stages": {
+        "dev": {
+            "api_gateway_stage": "api",
+            "automatic_layer": true
+        },
+        "local": {
+            "api_gateway_stage": "api",
+            "environment_variables": {
+                "CONFIG_FILE": "config_local.toml"
+            }
+        }
+    }
+}
